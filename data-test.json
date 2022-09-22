@@ -828,6 +828,17 @@
         "resource.identifier":"Frontiers-in-Plant-Science-Victoria-boliviana",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest Flora of Israel",
+      "identifier":"Harvest-Flora-of-Israel",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-of-Israel",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FIL/FIL.zip",
+        "resource.identifier":"Flora-of-Israel",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -907,6 +918,7 @@
         "Harvest-Flora-of-Iraq-6",
         "Harvest-Living-Collection-Common-Names",
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
+        "Harvest-Flora-of-Israel",
         "reindex"
       ]
     }
@@ -1763,6 +1775,20 @@
         }
       ],
       "title":"Frontiers in Plant Science"
+    },
+    {
+      "abbreviation":"FIL",
+      "identifier":"Flora of Israel",
+      "resources":[
+        {
+          "identifier":"Flora-of-Israel",
+          "organisation":"Flora-of-Israel",
+          "resourceType":"DwC_Archive",
+          "title":"Flora-of-Israel",
+          "uri":"https://storage.googleapis.com/powop-content/FIL/FIL.zip"
+        }
+      ],
+      "title":"Flora of Israel"
     }
   ]
 }
