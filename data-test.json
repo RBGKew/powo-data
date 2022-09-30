@@ -839,6 +839,17 @@
         "resource.identifier":"Flora-of-Israel",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest SID Protein Content",
+      "identifier":"Harvest-SID-Protein-Content",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Seed-Information-Database",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/sid_protein2.zip",
+        "resource.identifier":"SID-Protein-Content",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -919,6 +930,7 @@
         "Harvest-Living-Collection-Common-Names",
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Flora-of-Israel",
+        "Harvest-SID-Protein-Content",
         "reindex"
       ]
     }
@@ -1789,6 +1801,20 @@
         }
       ],
       "title":"Flora of Israel"
+    },
+    {
+      "abbreviation":"SID",
+      "identifier":"Seed-Information-Database",
+      "resources":[
+        {
+          "identifier":"SID-Protein-Content",
+          "organisation":"Seed-Information-Database",
+          "resourceType":"DwC_Archive",
+          "title":"SID Protein Content",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/sid_protein2.zip"
+        }
+      ],
+      "title":"Seed Information Database"
     }
   ]
 }
