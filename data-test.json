@@ -758,30 +758,8 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Flora-of-Iraq",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/FloraofIraq.zip",
         "resource.identifier":"Flora-of-Iraq",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest Flora of Iraq Vol 5 Part 1",
-      "identifier":"Harvest-Flora-of-Iraq-5-1",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"Flora-of-Iraq",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/FIQV5P1.zip",
-        "resource.identifier":"Flora-of-Iraq-5-1",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest Flora of Iraq Vol 6",
-      "identifier":"Harvest-Flora-of-Iraq-6",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"Flora-of-Iraq",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/FIQV6.zip",
-        "resource.identifier":"Flora-of-Iraq-6",
         "skip.indexing":"true"
       }
     },
@@ -925,8 +903,6 @@
         "Harvest-ColFungi-Herbtrack-Dets",
         "Harvest-ColFungi-Herbtrack-Images",
         "Harvest-Flora-of-Iraq",
-        "Harvest-Flora-of-Iraq-5-1",
-        "Harvest-Flora-of-Iraq-6",
         "Harvest-Living-Collection-Common-Names",
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Flora-of-Israel",
@@ -1741,21 +1717,7 @@
           "organisation":"Flora-of-Iraq",
           "resourceType":"DwC_Archive",
           "title":"Flora of Iraq",
-          "uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip"
-        },
-        {
-          "identifier":"Flora-of-Iraq-5-1",
-          "organisation":"Flora-of-Iraq",
-          "resourceType":"DwC_Archive",
-          "title":"Harvest Flora of Iraq Vol 5 Part 1",
-          "uri":"https://storage.googleapis.com/powop-content/FIraq/FIQV5P1.zip"
-        },
-        {
-          "identifier":"Flora-of-Iraq-6",
-          "organisation":"Flora-of-Iraq",
-          "resourceType":"DwC_Archive",
-          "title":"Harvest Flora of Iraq Vol 6",
-          "uri":"https://storage.googleapis.com/powop-content/FIraq/FIQV6.zip"
+          "uri":"https://storage.googleapis.com/powop-content/FIraq/FloraofIraq.zip"
         }
       ],
       "title":"Flora of Iraq"
