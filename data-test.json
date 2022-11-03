@@ -819,6 +819,17 @@
       }
     },
     {
+      "description":"Harvest Willdenowia",
+      "identifier":"Harvest-Willdenowia",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Willdenowia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/Willdenowia/Willdenowia.zip",
+        "resource.identifier":"Willdenowia",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest SID Protein Content",
       "identifier":"Harvest-SID-Protein-Content",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -906,6 +917,7 @@
         "Harvest-Living-Collection-Common-Names",
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Flora-of-Israel",
+        "Harvest-Willdenowia",
         "Harvest-SID-Protein-Content",
         "reindex"
       ]
@@ -1763,6 +1775,20 @@
         }
       ],
       "title":"Flora of Israel"
+        },
+    {
+      "abbreviation":"Willd",
+      "identifier":"Willdenowia",
+      "resources":[
+        {
+          "identifier":"Willdenowia",
+          "organisation":"Willdenowia",
+          "resourceType":"DwC_Archive",
+          "title":"Willdenowia",
+          "uri":"https://storage.googleapis.com/powop-content/Willdenowia/Willdenowia.zip"
+        }
+      ],
+      "title":"Willdenowia"
     },
     {
       "abbreviation":"SID",
