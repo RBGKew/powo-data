@@ -839,6 +839,17 @@
         "resource.identifier":"SID-Protein-Content",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest IUCN_Categories",
+      "identifier":"Harvest-IUCN-Categories",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"IUCN-Categories",
+        "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/IUCN_Categories.zip",
+        "resource.identifier":"IUCN-Categories",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -919,6 +930,7 @@
         "Harvest-Flora-of-Israel",
         "Harvest-Willdenowia",
         "Harvest-SID-Protein-Content",
+        "Harvest-IUCN-Categories",
         "reindex"
       ]
     }
@@ -1803,6 +1815,20 @@
         }
       ],
       "title":"Seed Information Database"
+    },
+    {
+      "abbreviation":"IUCN",
+      "identifier":"IUCN-Categories",
+      "resources":[
+        {
+          "identifier":"IUCN-Categories",
+          "organisation":"IUCN-Categories",
+          "resourceType":"DwC_Archive",
+          "title":"IUCN Categories",
+          "uri":"https://storage.googleapis.com/powop-content/IUCN/IUCN_Categories.zip"
+        }
+      ],
+      "title":"IUCN Categories"
     }
   ]
 }
