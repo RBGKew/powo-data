@@ -850,6 +850,17 @@
         "resource.identifier":"IUCN-Categories",
         "skip.indexing":"true"
       }
+     },
+    {
+      "description":"Harvest Systematic Botany",
+      "identifier":"Harvest-Systematic-Botany",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Systematic-Botany",
+        "authority.uri":"https://storage.googleapis.com/powop-content/SystBot/SystBot.zip",
+        "resource.identifier":"Systematic-Botany",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -931,6 +942,7 @@
         "Harvest-Willdenowia",
         "Harvest-SID-Protein-Content",
         "Harvest-IUCN-Categories",
+        "Harvest-Systematic-Botany",
         "reindex"
       ]
     }
@@ -1829,6 +1841,20 @@
         }
       ],
       "title":"IUCN Categories"
-    }
+    },
+    {
+      "abbreviation":"SystBot",
+      "identifier":"Systematic-Botany",
+      "resources":[
+        {
+          "identifier":"Systematic-Botany",
+          "organisation":"Systematic-Botany",
+          "resourceType":"DwC_Archive",
+          "title":"Systematic Botany",
+          "uri":"https://storage.googleapis.com/powop-content/SystBot/SystBot.zip"
+        }
+      ],
+      "title":"Systematic Botany"
+     }
   ]
 }
