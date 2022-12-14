@@ -795,7 +795,40 @@
         "resource.identifier":"Living-Collection-Common-Names",
         "skip.indexing":"true"
       }
-    }
+    },
+  {
+      "description":"Harvest Frontiers in Plant Science Victoria boliviana",
+      "identifier":"Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Frontiers-in-Plant-Science",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FrontPlantSci/FrontPlantSci.zip",
+        "resource.identifier":"Frontiers-in-Plant-Science-Victoria-boliviana",
+        "skip.indexing":"true"
+      }
+    },
+   {
+      "description":"Harvest Willdenowia",
+      "identifier":"Harvest-Willdenowia",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Willdenowia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/Willdenowia/Willdenowia.zip",
+        "resource.identifier":"Willdenowia",
+        "skip.indexing":"true"
+      }
+    },
+   {
+      "description":"Harvest Systematic Botany",
+      "identifier":"Harvest-Systematic-Botany",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Systematic-Botany",
+        "authority.uri":"https://storage.googleapis.com/powop-content/SystBot/SystBot.zip",
+        "resource.identifier":"Systematic-Botany",
+        "skip.indexing":"true"
+      }
+    }  
   ],
   "jobLists":[
     {
@@ -871,6 +904,9 @@
         "Harvest-ColFungi-Herbtrack-Images",
         "Harvest-Flora-of-Iraq",
         "Harvest-Living-Collection-Common-Names",
+        "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
+        "Harvest-Willdenowia",
+        "Harvest-Systematic-Botany",
         "reindex"
       ]
     }
@@ -1699,6 +1735,48 @@
         }
       ],
       "title":"Kew Living Collection Database"
-    }
+    },
+    {
+      "abbreviation":"FPS",
+      "identifier":"Frontiers-in-Plant-Science",
+      "resources":[
+        {
+          "identifier":"Frontiers-in-Plant-Science-Victoria-boliviana",
+          "organisation":"Frontiers-in-Plant-Science",
+          "resourceType":"DwC_Archive",
+          "title":"Frontiers in Plant Science Victoria boliviana",
+          "uri":"https://storage.googleapis.com/powop-content/FrontPlantSci/FrontPlantSci.zip"
+        }
+      ],
+      "title":"Frontiers in Plant Science"
+    },
+ {
+      "abbreviation":"Willd",
+      "identifier":"Willdenowia",
+      "resources":[
+        {
+          "identifier":"Willdenowia",
+          "organisation":"Willdenowia",
+          "resourceType":"DwC_Archive",
+          "title":"Willdenowia",
+          "uri":"https://storage.googleapis.com/powop-content/Willdenowia/Willdenowia.zip"
+        }
+      ],
+      "title":"Willdenowia"
+    },
+{
+      "abbreviation":"SystBot",
+      "identifier":"Systematic-Botany",
+      "resources":[
+        {
+          "identifier":"Systematic-Botany",
+          "organisation":"Systematic-Botany",
+          "resourceType":"DwC_Archive",
+          "title":"Systematic Botany",
+          "uri":"https://storage.googleapis.com/powop-content/SystBot/SystBot.zip"
+        }
+      ],
+      "title":"Systematic Botany"
+     }
   ]
 }
