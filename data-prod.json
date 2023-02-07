@@ -839,7 +839,18 @@
         "resource.identifier":"Systematic-Botany",
         "skip.indexing":"true"
       }
-    }  
+    },
+     {
+      "description":"Harvest Flora Zambesiaca Cyperaceae",
+      "identifier":"Harvest-Flora-Zambesiaca-Cyperaceae",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-Zambesiaca-Cyperaceae",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
+        "resource.identifier":"FZC",
+        "skip.indexing":"true"
+      }
+    }
   ],
   "jobLists":[
     {
@@ -919,6 +930,7 @@
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Willdenowia",
         "Harvest-Systematic-Botany",
+        "Harvest-Flora-Zambesiaca-Cyperaceae",
         "reindex"
       ]
     }
@@ -1803,6 +1815,20 @@
         }
       ],
       "title":"Systematic Botany"
-     }
+     },
+     {
+      "abbreviation":"FZC",
+      "identifier":"Flora-Zambesiaca-Cyperaceae",
+      "resources":[
+        {
+          "identifier":"Flora-Zambesiaca-Cyperaceae",
+          "organisation":"Flora-Zambesiaca-Cyperaceae",
+          "resourceType":"DwC_Archive",
+          "title":"Flora Zambesiaca Cyperaceae",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip"
+        }
+      ],
+      "title":"Flora Zambesiaca Cyperaceae"
+}       
   ]
 }
