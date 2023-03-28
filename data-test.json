@@ -872,6 +872,7 @@
         "resource.identifier":"FZC",
         "skip.indexing":"true"
       }
+    },
       {
       "description":"Harvest Trees of New Guinea",
       "identifier":"Harvest-Trees-of-New-Guinea",
@@ -1878,8 +1879,8 @@
         }
       ],
       "title":"Systematic Botany"
-     },
- {
+    },
+    {
       "abbreviation":"FZC",
       "identifier":"Flora-Zambesiaca-Cyperaceae",
       "resources":[
@@ -1892,7 +1893,7 @@
         }
       ],
       "title":"Flora Zambesiaca Cyperaceae"
-     }
+    },
     {
       "abbreviation":"TONG",
       "identifier":"Trees-of-New-Guinea",
@@ -1906,7 +1907,7 @@
         }
       ],
       "title":"Trees of New Guinea"
-     }
+    }
   ]
 }    
 
