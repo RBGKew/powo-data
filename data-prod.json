@@ -849,6 +849,17 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
         "resource.identifier":"FZC",
         "skip.indexing":"true"
+          }
+    },
+    {
+      "description":"Harvest Trees of New Guinea",
+      "identifier":"Harvest-Trees-of-New-Guinea",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Trees-of-New-Guinea",
+        "authority.uri":"https://storage.googleapis.com/powop-content/TONG/TreesNewGuinea.zip",
+        "resource.identifier":"Trees-of-New-Guinea",
+        "skip.indexing":"true"
       }
     }
   ],
@@ -931,6 +942,7 @@
         "Harvest-Willdenowia",
         "Harvest-Systematic-Botany",
         "Harvest-Flora-Zambesiaca-Cyperaceae",
+        "Harvest-Trees-of-New-Guinea",
         "reindex"
       ]
     }
@@ -1829,6 +1841,20 @@
         }
       ],
       "title":"Flora Zambesiaca Cyperaceae"
+        },
+    {
+      "abbreviation":"TONG",
+      "identifier":"Trees-of-New-Guinea",
+      "resources":[
+        {
+          "identifier":"Trees-of-New-Guinea",
+          "organisation":"Trees-of-New-Guinea",
+          "resourceType":"DwC_Archive",
+          "title":"Trees of New Guinea",
+          "uri":"https://storage.googleapis.com/powop-content/TONG/TreesNewGuinea.zip"
+        }
+      ],
+      "title":"Trees of New Guinea"
 }       
   ]
 }
