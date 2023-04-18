@@ -902,7 +902,7 @@
       "parameters":{
         "authority.name":"FZ-Acanthaceae",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
-        "resource.identifier":"FZ-Acanthaceae",
+        "resource.identifier":"FZAC",
         "skip.indexing":"true"
       }
       }
@@ -1947,7 +1947,7 @@
       "title":"KewBulletinVol77"
        },
     {
-      "abbreviation":"FZ",
+      "abbreviation":"FZAC",
       "identifier":"FZ-Acanthaceae",
       "resources":[
         {
