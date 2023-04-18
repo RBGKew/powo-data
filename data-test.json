@@ -893,6 +893,17 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip",
         "resource.identifier":"KB77",
         "skip.indexing":"true"
+                }
+    },
+    {
+      "description":"Harvest FZ Acanthaceae",
+      "identifier":"Harvest-FZ-Acanthaceae",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"FZ-Acanthaceae",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
+        "resource.identifier":"FZ-Acanthaceae",
+        "skip.indexing":"true"
       }
       }
   ],
@@ -978,7 +989,8 @@
         "Harvest-Systematic-Botany",
         "Harvest-Flora-Zambesiaca-Cyperaceae",
         "Harvest-Trees-of-New-Guinea",
-         "Harvest-KewBulletinVol77",
+        "Harvest-KewBulletinVol77",
+        "Harvest-FZ-Acanthaceae",
         "reindex"
       ]
     }
@@ -1933,6 +1945,20 @@
         }
       ],
       "title":"KewBulletinVol77"
+       },
+    {
+      "abbreviation":"FZ",
+      "identifier":"FZ-Acanthaceae",
+      "resources":[
+        {
+          "identifier":"FZ-Acanthaceae",
+          "organisation":"FZ-Acanthaceae",
+          "resourceType":"DwC_Archive",
+          "title":"FZ Acanthaceae",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip"
+        }
+      ],
+      "title":"FZ Acanthaceae"
     }
   ]
 }    
