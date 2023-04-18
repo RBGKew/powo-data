@@ -883,7 +883,18 @@
         "resource.identifier":"TONG",
         "skip.indexing":"true"
       }
-    }
+    },
+      {
+      "description":"KewBulletinVol77",
+      "identifier":"KewBulletinVol77",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"KewBulletinVol77",
+        "authority.uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip",
+        "resource.identifier":"KB77",
+        "skip.indexing":"true"
+      }
+      }
   ],
   "jobLists":[
     {
@@ -967,6 +978,7 @@
         "Harvest-Systematic-Botany",
         "Harvest-Flora-Zambesiaca-Cyperaceae",
         "Harvest-Trees-of-New-Guinea",
+         "Harvest-KewBulletinVol77",
         "reindex"
       ]
     }
@@ -1907,6 +1919,20 @@
         }
       ],
       "title":"Trees of New Guinea"
+     },
+    {
+      "abbreviation":"KB77",
+      "identifier":"KewBulletinVol77",
+      "resources":[
+        {
+          "identifier":"KewBulletinVol77",
+          "organisation":"KewBulletinVol77",
+          "resourceType":"DwC_Archive",
+          "title":"KewBulletinVol77",
+          "uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip"
+        }
+      ],
+      "title":"KewBulletinVol77"
     }
   ]
 }    
