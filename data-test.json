@@ -885,8 +885,8 @@
       }
     },
       {
-      "description":"KewBulletinVol77",
-      "identifier":"KewBulletinVol77",
+      "description":"Harvest KewBulletinVol77",
+      "identifier":"Harvest-KewBulletinVol77",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"KewBulletinVol77",
@@ -1847,7 +1847,7 @@
         }
       ],
       "title":"Flora of Israel"
-        },
+    },
     {
       "abbreviation":"Willd",
       "identifier":"Willdenowia",
@@ -1931,7 +1931,7 @@
         }
       ],
       "title":"Trees of New Guinea"
-     },
+    },
     {
       "abbreviation":"KB77",
       "identifier":"KewBulletinVol77",
@@ -1945,7 +1945,7 @@
         }
       ],
       "title":"KewBulletinVol77"
-       },
+    },
     {
       "abbreviation":"FZAC",
       "identifier":"FZ-Acanthaceae",
