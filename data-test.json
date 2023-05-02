@@ -897,12 +897,22 @@
     },
     {
       "description":"Harvest Flora Zambesiaca Acanthaceae",
-      "identifier":"HarvestFlora-Zambesiaca-Acanthaceae",
+      "identifier":"Harvest-Flora-Zambesiaca-Acanthaceae",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Acanthaceae",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
         "resource.identifier":"FZAC",
+        "skip.indexing":"true"
+      },
+       {
+      "description":"Harvest Flora Zambesiaca Volume 12 part 2",
+      "identifier":"Harvest-Flora-Zambesiaca-Volume-12-part-2",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-Zambesiaca-Volume-12-part-2",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZvol12.2.zip",
+        "resource.identifier":"FZ12",
         "skip.indexing":"true"
       }
       }
@@ -991,6 +1001,7 @@
         "Harvest-Trees-of-New-Guinea",
         "Harvest-KewBulletinVol77",
         "Harvest-Flora-Zambesiaca-Acanthaceae",
+        "Harvest-Flora-Zambesiaca-Volume-12-part-2",
         "reindex"
       ]
     }
@@ -1959,6 +1970,20 @@
         }
       ],
       "title":"Flora Zambesiaca Acanthacea"
+    },
+     {
+      "abbreviation":"FZ12",
+      "identifier":"Flora-Zambesiaca-Volume-12-part-2",
+      "resources":[
+        {
+          "identifier":"Flora-Zambesiaca-Volume-12-part-2",
+          "organisation":"Flora-Zambesiaca-Volume-12-part-2",
+          "resourceType":"DwC_Archive",
+          "title":"Flora Zambesiaca Volume 12 part 2",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZvol12.2.zip"
+        }
+      ],
+      "title":"Flora Zambesiaca Volume 12 part 2"
     }
   ]
 }    
