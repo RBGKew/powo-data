@@ -904,6 +904,7 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
         "resource.identifier":"FZAC",
         "skip.indexing":"true"
+      }
       },
        {
       "description":"Harvest Flora Zambesiaca Volume 12 part 2",
@@ -1969,7 +1970,7 @@
           "uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip"
         }
       ],
-      "title":"Flora Zambesiaca Acanthacea"
+      "title":"Flora Zambesiaca Acanthaceae"
     },
      {
       "abbreviation":"FZ12",
