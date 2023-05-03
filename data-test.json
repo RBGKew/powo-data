@@ -850,7 +850,7 @@
         "resource.identifier":"IUCN-Categories",
         "skip.indexing":"true"
       }
-     },
+    },
     {
       "description":"Harvest Systematic Botany",
       "identifier":"Harvest-Systematic-Botany",
@@ -873,7 +873,7 @@
         "skip.indexing":"true"
       }
     },
-      {
+    {
       "description":"Harvest Trees of New Guinea",
       "identifier":"Harvest-Trees-of-New-Guinea",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -884,7 +884,7 @@
         "skip.indexing":"true"
       }
     },
-      {
+    {
       "description":"Harvest KewBulletinVol77",
       "identifier":"Harvest-KewBulletinVol77",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -893,7 +893,7 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip",
         "resource.identifier":"KB77",
         "skip.indexing":"true"
-                }
+      }
     },
     {
       "description":"Harvest Flora Zambesiaca Acanthaceae",
@@ -905,8 +905,8 @@
         "resource.identifier":"FZAC",
         "skip.indexing":"true"
       }
-      },
-       {
+    },
+    {
       "description":"Harvest Flora Zambesiaca Volume 12 part 2",
       "identifier":"Harvest-Flora-Zambesiaca-Volume-12-part-2",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -916,7 +916,7 @@
         "resource.identifier":"FZ12",
         "skip.indexing":"true"
       }
-      }
+    }
   ],
   "jobLists":[
     {
