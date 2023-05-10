@@ -907,13 +907,13 @@
       }
     },
     {
-      "description":"Harvest Flora Zambesiaca Volume 12 part 2",
-      "identifier":"Harvest-Flora-Zambesiaca-Volume-12-part-2",
+      "description":"Harvest Flora Zambesiaca Volume 12 part 1",
+      "identifier":"Harvest-Flora-Zambesiaca-Volume-12-part-1",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Flora-Zambesiaca-Volume-12-part-2",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZvol12.2.zip",
-        "resource.identifier":"FZ12",
+        "authority.name":"Flora-Zambesiaca-Volume-12-part-1",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZVol12pt1.zip",
+        "resource.identifier":"FZ12p1",
         "skip.indexing":"true"
       }
     }
@@ -1002,7 +1002,7 @@
         "Harvest-Trees-of-New-Guinea",
         "Harvest-KewBulletinVol77",
         "Harvest-Flora-Zambesiaca-Acanthaceae",
-        "Harvest-Flora-Zambesiaca-Volume-12-part-2",
+        "Harvest-Flora-Zambesiaca-Volume-12-part-1",
         "reindex"
       ]
     }
@@ -1973,18 +1973,18 @@
       "title":"Flora Zambesiaca Acanthaceae"
     },
      {
-      "abbreviation":"FZ12",
-      "identifier":"Flora-Zambesiaca-Volume-12-part-2",
+      "abbreviation":"FZ12p1",
+      "identifier":"Flora-Zambesiaca-Volume-12-part-1",
       "resources":[
         {
-          "identifier":"Flora-Zambesiaca-Volume-12-part-2",
-          "organisation":"Flora-Zambesiaca-Volume-12-part-2",
+          "identifier":"Flora-Zambesiaca-Volume-12-part-1",
+          "organisation":"Flora-Zambesiaca-Volume-12-part-1",
           "resourceType":"DwC_Archive",
-          "title":"Flora Zambesiaca Volume 12 part 2",
-          "uri":"https://storage.googleapis.com/powop-content/FZ/FZvol12.2.zip"
+          "title":"Flora Zambesiaca Volume 12 part 1",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZVol12pt1.zip"
         }
       ],
-      "title":"Flora Zambesiaca Volume 12 part 2"
+      "title":"Flora Zambesiaca Volume 12 part 1"
     }
   ]
 }    
