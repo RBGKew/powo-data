@@ -916,7 +916,18 @@
         "resource.identifier":"FZ12p1",
         "skip.indexing":"true"
       }
-    }
+    },
+      {
+      "description":"SeedCollectionGuides1",
+      "identifier":"SeedCollectionGuides1",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"SeedCollectionGuides1",
+        "authority.uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SCG1.zip",
+        "resource.identifier":"SCG1",
+        "skip.indexing":"true"
+      }
+      }
   ],
   "jobLists":[
     {
@@ -1003,6 +1014,7 @@
         "Harvest-KewBulletinVol77",
         "Harvest-Flora-Zambesiaca-Acanthaceae",
         "Harvest-Flora-Zambesiaca-Volume-12-part-1",
+        "Harvest-SeedCollectionGuides1",
         "reindex"
       ]
     }
@@ -1985,7 +1997,25 @@
         }
       ],
       "title":"Flora Zambesiaca Volume 12 part 1"
-    }
+    },
+     {
+      "abbreviation":"SCG1",
+      "bibliographicCitation":"SeedCollectionGuides1",
+      "creator":"POWOP content",
+      "description":"SeedCollectionGuides1",
+      "identifier":"SeedCollectionGuides1",
+      "publisherName":"POWOP content",
+      "resources":[
+        {
+          "identifier":"SeedCollectionGuides1",
+          "organisation":"SeedCollectionGuides1",
+          "resourceType":"DwC_Archive",
+          "title":"FZ",
+          "uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SCG1.zip"
+        }
+      ], 
+       "title":"SeedCollectionGuides1"
+     }
   ]
 }    
 
