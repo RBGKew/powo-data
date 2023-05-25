@@ -918,8 +918,8 @@
       }
     },
       {
-      "description":"SeedCollectionGuides1",
-      "identifier":"SeedCollectionGuides1",
+      "description":"Harvest SeedCollectionGuides1",
+      "identifier":"Harvest-SeedCollectionGuides1",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"SeedCollectionGuides1",
