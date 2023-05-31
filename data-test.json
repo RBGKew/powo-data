@@ -927,6 +927,17 @@
         "resource.identifier":"SCG1",
         "skip.indexing":"true"
       }
+      },
+    {
+     "description":"Harvest Flora Zambesiaca Volume 8 part 1",
+      "identifier":"Harvest-Flora-Zambesiaca-Volume-8-part-8",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-Zambesiaca-Volume-8-part-8",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZVol8pt8.zip",
+        "resource.identifier":"FZVol8pt8",
+        "skip.indexing":"true" 
+      }
       }
   ],
   "jobLists":[
@@ -1015,6 +1026,8 @@
         "Harvest-Flora-Zambesiaca-Acanthaceae",
         "Harvest-Flora-Zambesiaca-Volume-12-part-1",
         "Harvest-SeedCollectionGuides1",
+        "Harvest-Flora-Zambesiaca-Volume-8-part-8",
+        
         "reindex"
       ]
     }
@@ -2015,6 +2028,20 @@
         }
       ], 
        "title":"SeedCollectionGuides1"
+     },
+    {
+     "abbreviation":"FZ8pt8",
+      "identifier":"Flora-Zambesiaca-Volume-8-part-8",
+      "resources":[
+        {
+          "identifier":"Flora-Zambesiaca-Volume-8-part-8",
+          "organisation":"Flora-Zambesiaca-Volume-8-part-8",
+          "resourceType":"DwC_Archive",
+          "title":"Flora Zambesiaca Volume 8 part 8",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZVol8pt8.zip"
+        }
+      ],
+      "title":"Flora Zambesiaca Volume 8 part 8" 
      }
   ]
 }    
