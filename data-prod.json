@@ -818,7 +818,7 @@
         "skip.indexing":"true"
       }
     },
-     {
+    {
       "description":"Harvest IUCN_Categories",
       "identifier":"Harvest-IUCN-Categories",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -828,8 +828,8 @@
         "resource.identifier":"IUCN-Categories",
         "skip.indexing":"true"
       }
-     },
-   {
+    },
+    {
       "description":"Harvest Systematic Botany",
       "identifier":"Harvest-Systematic-Botany",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -840,7 +840,7 @@
         "skip.indexing":"true"
       }
     },
-     {
+    {
       "description":"Harvest Flora Zambesiaca Cyperaceae",
       "identifier":"Harvest-Flora-Zambesiaca-Cyperaceae",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -849,7 +849,7 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
         "resource.identifier":"FZC",
         "skip.indexing":"true"
-          }
+      }
     },
     {
       "description":"Harvest Trees of New Guinea",
@@ -860,7 +860,7 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/TONG/TreesNewGuinea.zip",
         "resource.identifier":"Trees-of-New-Guinea",
         "skip.indexing":"true"
-          }
+      }
     },
     {
       "description":"Harvest Flora Zambesiaca Acanthaceae",
@@ -869,7 +869,7 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Acanthaceae",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
-        "resource.identifier":"FZAC",
+        "resource.identifier":"Flora-Zambesiaca-Acanthaceae",
         "skip.indexing":"true"
       }
     },
@@ -880,18 +880,18 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Volume-12-part-1",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZVol12pt1.zip",
-        "resource.identifier":"FZ12p1",
+        "resource.identifier":"Flora-Zambesiaca-Volume-12-part-1",
         "skip.indexing":"true"
          }
-      },
+    },
     {
-     "description":"Harvest Flora Zambesiaca Volume 8 part 1",
+      "description":"Harvest Flora Zambesiaca Volume 8 part 8",
       "identifier":"Harvest-Flora-Zambesiaca-Volume-8-part-8",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Volume-8-part-8",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZVol8pt8.zip",
-        "resource.identifier":"FZVol8pt8",
+        "resource.identifier":"Flora-Zambesiaca-Volume-8-part-8",
         "skip.indexing":"true" 
       }
     }
@@ -1822,7 +1822,7 @@
       ],
       "title":"Frontiers in Plant Science"
     },
- {
+    {
       "abbreviation":"Willd",
       "identifier":"Willdenowia",
       "resources":[
@@ -1836,7 +1836,7 @@
       ],
       "title":"Willdenowia"
     },
-     {
+    {
       "abbreviation":"IUCN",
       "identifier":"IUCN-Categories",
       "resources":[
@@ -1850,7 +1850,7 @@
       ],
       "title":"IUCN Categories"
     },
-{
+    {
       "abbreviation":"SystBot",
       "identifier":"Systematic-Botany",
       "resources":[
@@ -1863,8 +1863,8 @@
         }
       ],
       "title":"Systematic Botany"
-     },
-     {
+    },
+    {
       "abbreviation":"FZC",
       "identifier":"Flora-Zambesiaca-Cyperaceae",
       "resources":[
@@ -1877,7 +1877,7 @@
         }
       ],
       "title":"Flora Zambesiaca Cyperaceae"
-        },
+    },
     {
       "abbreviation":"TONG",
       "identifier":"Trees-of-New-Guinea",
@@ -1891,7 +1891,7 @@
         }
       ],
       "title":"Trees of New Guinea"
-      },
+    },
     {
       "abbreviation":"FZAC",
       "identifier":"Flora-Zambesiaca-Acanthaceae",
@@ -1906,7 +1906,7 @@
       ],
       "title":"Flora Zambesiaca Acanthaceae"
     },
-     {
+    {
       "abbreviation":"FZ12p1",
       "identifier":"Flora-Zambesiaca-Volume-12-part-1",
       "resources":[
@@ -1919,9 +1919,9 @@
         }
       ],
       "title":"Flora Zambesiaca Volume 12 part 1"
-        },
+    },
     {
-     "abbreviation":"FZ8pt8",
+      "abbreviation":"FZ8pt8",
       "identifier":"Flora-Zambesiaca-Volume-8-part-8",
       "resources":[
         {
@@ -1933,6 +1933,6 @@
         }
       ],
       "title":"Flora Zambesiaca Volume 8 part 8" 
-}       
+    }       
   ]
 }
