@@ -869,7 +869,7 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Cyperaceae",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
-        "resource.identifier":"FZC",
+        "resource.identifier":"Flora-Zambesiaca-Cyperaceae",
         "skip.indexing":"true"
       }
     },
@@ -880,7 +880,7 @@
       "parameters":{
         "authority.name":"Trees-of-New-Guinea",
         "authority.uri":"https://storage.googleapis.com/powop-content/TONG/TreesNewGuinea.zip",
-        "resource.identifier":"TONG",
+        "resource.identifier":"Trees-of-New-Guinea",
         "skip.indexing":"true"
       }
     },
@@ -891,7 +891,7 @@
       "parameters":{
         "authority.name":"KewBulletinVol77",
         "authority.uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip",
-        "resource.identifier":"KB77",
+        "resource.identifier":"KewBulletinVol77",
         "skip.indexing":"true"
       }
     },
@@ -902,7 +902,7 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Acanthaceae",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
-        "resource.identifier":"FZAC",
+        "resource.identifier":"Flora-Zambesiaca-Acanthaceae",
         "skip.indexing":"true"
       }
     },
@@ -913,21 +913,21 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Volume-12-part-1",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZVol12pt1.zip",
-        "resource.identifier":"FZ12p1",
+        "resource.identifier":"Flora-Zambesiaca-Volume-12-part-1",
         "skip.indexing":"true"
       }
     },
-      {
+    {
       "description":"Harvest SeedCollectionGuides1",
       "identifier":"Harvest-SeedCollectionGuides1",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"SeedCollectionGuides1",
         "authority.uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SCG1.zip",
-        "resource.identifier":"SCG1",
+        "resource.identifier":"SeedCollectionGuides1",
         "skip.indexing":"true"
       }
-      },
+    },
     {
      "description":"Harvest Flora Zambesiaca Volume 8 part 8",
       "identifier":"Harvest-Flora-Zambesiaca-Volume-8-part-8",
@@ -935,10 +935,10 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Volume-8-part-8",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZVol8pt8.zip",
-        "resource.identifier":"FZVol8pt8",
+        "resource.identifier":"Flora-Zambesiaca-Volume-8-part-8",
         "skip.indexing":"true" 
       }
-      }
+    }
   ],
   "jobLists":[
     {
@@ -1997,7 +1997,7 @@
       ],
       "title":"Flora Zambesiaca Acanthaceae"
     },
-     {
+    {
       "abbreviation":"FZ12p1",
       "identifier":"Flora-Zambesiaca-Volume-12-part-1",
       "resources":[
@@ -2011,7 +2011,7 @@
       ],
       "title":"Flora Zambesiaca Volume 12 part 1"
     },
-     {
+    {
       "abbreviation":"SCG1",
       "bibliographicCitation":"SeedCollectionGuides1",
       "creator":"POWOP content",
@@ -2028,9 +2028,9 @@
         }
       ], 
        "title":"SeedCollectionGuides1"
-     },
+    },
     {
-     "abbreviation":"FZ8pt8",
+      "abbreviation":"FZ8pt8",
       "identifier":"Flora-Zambesiaca-Volume-8-part-8",
       "resources":[
         {
@@ -2042,7 +2042,7 @@
         }
       ],
       "title":"Flora Zambesiaca Volume 8 part 8" 
-     }
+    }
   ]
 }    
 
