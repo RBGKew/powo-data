@@ -847,7 +847,7 @@
       "parameters":{
         "authority.name":"Flora-Zambesiaca-Cyperaceae",
         "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
-        "resource.identifier":"FZC",
+        "resource.identifier":"Flora-Zambesiaca-Cyperacea",
         "skip.indexing":"true"
       }
     },
