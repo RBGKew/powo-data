@@ -840,18 +840,7 @@
         "skip.indexing":"true"
       }
     },
-    {
-      "description":"Harvest Flora Zambesiaca Cyperaceae",
-      "identifier":"Harvest-Flora-Zambesiaca-Cyperaceae",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"Flora-Zambesiaca-Cyperaceae",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
-        "resource.identifier":"Flora-Zambesiaca-Cyperacea",
-        "skip.indexing":"true"
-      }
-    },
-    {
+       {
       "description":"Harvest Trees of New Guinea",
       "identifier":"Harvest-Trees-of-New-Guinea",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -862,18 +851,7 @@
         "skip.indexing":"true"
       }
     },
-    {
-      "description":"Harvest Flora Zambesiaca Acanthaceae",
-      "identifier":"Harvest-Flora-Zambesiaca-Acanthaceae",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"Flora-Zambesiaca-Acanthaceae",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
-        "resource.identifier":"Flora-Zambesiaca-Acanthaceae",
-        "skip.indexing":"true"
-      }
-    },
-    {
+     {
       "description":"Harvest Flora Zambesiaca Volume 12 part 1",
       "identifier":"Harvest-Flora-Zambesiaca-Volume-12-part-1",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -974,9 +952,7 @@
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Willdenowia",
         "Harvest-Systematic-Botany",
-        "Harvest-Flora-Zambesiaca-Cyperaceae",
         "Harvest-Trees-of-New-Guinea",
-        "Harvest-Flora-Zambesiaca-Acanthaceae",
         "Harvest-Flora-Zambesiaca-Volume-12-part-1",
         "Harvest-Flora-Zambesiaca-Volume-8-part-8",
         "reindex"
@@ -1865,20 +1841,6 @@
       "title":"Systematic Botany"
     },
     {
-      "abbreviation":"FZC",
-      "identifier":"Flora-Zambesiaca-Cyperaceae",
-      "resources":[
-        {
-          "identifier":"Flora-Zambesiaca-Cyperaceae",
-          "organisation":"Flora-Zambesiaca-Cyperaceae",
-          "resourceType":"DwC_Archive",
-          "title":"Flora Zambesiaca Cyperaceae",
-          "uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip"
-        }
-      ],
-      "title":"Flora Zambesiaca Cyperaceae"
-    },
-    {
       "abbreviation":"TONG",
       "identifier":"Trees-of-New-Guinea",
       "resources":[
@@ -1891,21 +1853,7 @@
         }
       ],
       "title":"Trees of New Guinea"
-    },
-    {
-      "abbreviation":"FZAC",
-      "identifier":"Flora-Zambesiaca-Acanthaceae",
-      "resources":[
-        {
-          "identifier":"Flora-Zambesiaca-Acanthaceae",
-          "organisation":"Flora-Zambesiaca-Acanthaceae",
-          "resourceType":"DwC_Archive",
-          "title":"Flora Zambesiaca Acanthaceae",
-          "uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip"
-        }
-      ],
-      "title":"Flora Zambesiaca Acanthaceae"
-    },
+       },
     {
       "abbreviation":"FZ12p1",
       "identifier":"Flora-Zambesiaca-Volume-12-part-1",
