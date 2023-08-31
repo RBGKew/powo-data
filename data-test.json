@@ -2057,17 +2057,17 @@
     },
     {
       "abbreviation":"Cayman",
-      "identifier":"Flora-Cayman",
+      "identifier":"Cayman",
       "resources":[
         {
-          "identifier":"Flora-Cayman",
-          "organisation":"Flora-Cayman",
+          "identifier":"Cayman",
+          "organisation":"Cayman",
           "resourceType":"DwC_Archive",
-          "title":"Flora Cayman",
+          "title":"Cayman",
           "uri":"hhttps://storage.googleapis.com/powop-content/Cayman/Cayman.zip"
         }
       ],
-      "title":"Flora Cayman" 
+      "title":"Cayman" 
     }
   ]
 }    
