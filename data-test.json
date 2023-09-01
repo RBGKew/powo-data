@@ -31,7 +31,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Names-and-Taxonomic-Backbone",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoNames_with_paftol_id.zip",
         "reference.processing.mode":"SKIP_REFERENCES",
         "resource.identifier":"Species-Names",
         "skip.indexing":"true",
