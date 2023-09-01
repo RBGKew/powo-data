@@ -938,6 +938,17 @@
         "resource.identifier":"Flora-Zambesiaca-Volume-8-part-8",
         "skip.indexing":"true" 
       }
+    },
+     {
+      "description":"Harvest Cayman",
+      "identifier":"Harvest-Cayman",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Cayman",
+        "authority.uri":"https://storage.googleapis.com/powop-content/Cayman/Cayman.zip",
+        "resource.identifier":"Cayman",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -1027,6 +1038,7 @@
         "Harvest-Flora-Zambesiaca-Volume-12-part-1",
         "Harvest-SeedCollectionGuides1",
         "Harvest-Flora-Zambesiaca-Volume-8-part-8",
+        "Harvest-Cayman",
         
         "reindex"
       ]
@@ -2042,6 +2054,20 @@
         }
       ],
       "title":"Flora Zambesiaca Volume 8 part 8" 
+    },
+    {
+      "abbreviation":"Cayman",
+      "identifier":"Cayman",
+      "resources":[
+        {
+          "identifier":"Cayman",
+          "organisation":"Cayman",
+          "resourceType":"DwC_Archive",
+          "title":"Cayman",
+          "uri":"hhttps://storage.googleapis.com/powop-content/Cayman/Cayman.zip"
+        }
+      ],
+      "title":"Cayman" 
     }
   ]
 }    
