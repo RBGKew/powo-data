@@ -56,7 +56,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Names-and-Taxonomic-Backbone",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoNames_with_paftol_id.zip",
         "resource.identifier":"Species-Taxonomy",
         "skip.indexing":"true",
         "taxon.processing.mode":"IMPORT_TAXONOMY"
@@ -1070,7 +1070,7 @@
           "organisation":"Kew-Names-and-Taxonomic-Backbone",
           "resourceType":"DwC_Archive",
           "title":"Species Names",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoNames_with_paftol_id.zip"
         },
         {
           "identifier":"Family-and-Genus-Taxonomy",
@@ -1084,7 +1084,7 @@
           "organisation":"Kew-Names-and-Taxonomic-Backbone",
           "resourceType":"DwC_Archive",
           "title":"Species Taxonomy",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoNames_with_paftol_id.zip"
         }
       ],
       "subject":"Kew Names and Taxonomic Backbone; Royal Botanic Gardens, Kew",
