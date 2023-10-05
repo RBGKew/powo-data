@@ -940,13 +940,13 @@
       }
     },
     {
-      "description":"Harvest Cayman",
-      "identifier":"Harvest-Cayman",
+      "description":"Harvest Flora of the Cayman Islands",
+      "identifier":"Harvest-Flora-of-the-Cayman-Islands",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Cayman",
+        "authority.name":"Flora-of-the-Cayman-Islands",
         "authority.uri":"https://storage.googleapis.com/powop-content/Cayman/Cayman.zip",
-        "resource.identifier":"Cayman",
+        "resource.identifier":"Flora-of-the-Cayman-Islands",
         "skip.indexing":"true"
       }
     }
@@ -1038,7 +1038,7 @@
         "Harvest-Flora-Zambesiaca-Volume-12-part-1",
         "Harvest-SeedCollectionGuides1",
         "Harvest-Flora-Zambesiaca-Volume-8-part-8",
-        "Harvest-Cayman",
+        "Harvest-Flora-of-the-Cayman-Islands",
         "reindex"
       ]
     }
@@ -2056,17 +2056,17 @@
     },
     {
       "abbreviation":"Cayman",
-      "identifier":"Cayman",
+      "identifier":"Flora-of-the-Cayman-Islands",
       "resources":[
         {
-          "identifier":"Cayman",
-          "organisation":"Cayman",
+          "identifier":"Flora-of-the-Cayman-Islands",
+          "organisation":"Flora-of-the-Cayman-Islands",
           "resourceType":"DwC_Archive",
-          "title":"Cayman",
+          "title":"Flora of the Cayman Islands",
           "uri":"https://storage.googleapis.com/powop-content/Cayman/Cayman.zip"
         }
       ],
-      "title":"Cayman" 
+      "title":"Flora of the Cayman Islands" 
     }
   ]
 }    
