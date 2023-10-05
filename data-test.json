@@ -890,7 +890,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"KewBulletinVol77",
-        "authority.uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/KewBulletin/KewBulletinBatch14.zip",
         "resource.identifier":"KewBulletinVol77",
         "skip.indexing":"true"
       }
@@ -2013,7 +2013,7 @@
           "organisation":"KewBulletinVol77",
           "resourceType":"DwC_Archive",
           "title":"KewBulletinVol77",
-          "uri":"https://storage.googleapis.com/powop-content/KewBulletin/KBVOL77.zip"
+          "uri":"https://storage.googleapis.com/powop-content/KewBulletin/KewBulletinBatch14.zip"
         }
       ],
       "title":"KewBulletinVol77"
