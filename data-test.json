@@ -2091,31 +2091,34 @@
         }
       ],
       "title":"Flora of the Cayman Islands" 
-      },
-      {
-      "abbreviation":"KTPFIH",
-  "identifier":"the-kew-tropical-plant-families-identification-handbooks",
-  "resources":[
+    },
     {
-      "identifier":"-the-kew-tropical-plant-families-identification-handbooks",
-      "organisation":"-the-kew-tropical-plant-families-identification-handbooks",
-      "resourceType":"DwC_Archive",
-      "title":"The Kew Tropical Plant Families Identification Handbook",
-      "uri":"https://storage.googleapis.com/powop-content/KPFIH/TropicalPFIH.zip"
-       },
-      {
-        "abbreviation":"KTPFIH",
-  "identifier":"the-kew-temperate-plant-families-identification-handbooks",
-  "resources":[
+      "abbreviation":"KTROP-FIH",
+      "identifier":"the-kew-tropical-plant-families-identification-handbooks",
+      "resources":[
+        {
+          "identifier":"-the-kew-tropical-plant-families-identification-handbooks",
+          "organisation":"-the-kew-tropical-plant-families-identification-handbooks",
+          "resourceType":"DwC_Archive",
+          "title":"The Kew Tropical Plant Families Identification Handbook",
+          "uri":"https://storage.googleapis.com/powop-content/KPFIH/TropicalPFIH.zip"
+        }
+      ],
+      "title":"The Kew Tropical Plant Families Identification Handbook"
+    },
     {
-      "identifier":"-the-kew-temperate-plant-families-identification-handbooks",
-      "organisation":"-the-kew-temperate-plant-families-identification-handbooks",
-      "resourceType":"DwC_Archive",
-      "title":"The Kew Temperate Plant Families Identification Handbook",
-      "uri":"https://storage.googleapis.com/powop-content/KPFIH/TemperatePFIH.zip"
-    }
-  ],
-  "title":"The Kew Temperate Plant Families Identification Handbook" 
+      "abbreviation":"KTEMP-FIH",
+      "identifier":"the-kew-temperate-plant-families-identification-handbooks",
+      "resources":[
+        {
+          "identifier":"-the-kew-temperate-plant-families-identification-handbooks",
+          "organisation":"-the-kew-temperate-plant-families-identification-handbooks",
+          "resourceType":"DwC_Archive",
+          "title":"The Kew Temperate Plant Families Identification Handbook",
+          "uri":"https://storage.googleapis.com/powop-content/KPFIH/TemperatePFIH.zip"
+        }
+      ],
+      "title":"The Kew Temperate Plant Families Identification Handbook" 
     }
   ]
 }    
