@@ -1816,6 +1816,24 @@
       ],
       "title":"Systematic Botany"
     },
+     {
+      "abbreviation":"SCG",
+      "bibliographicCitation":"Seed Collection Guides",
+      "creator":"POWOP content",
+      "description":"Seed Collection Guides",
+      "identifier":"Seed Collection Guides",
+      "publisherName":"POWOP content",
+      "resources":[
+        {
+          "identifier":"Seed Collection Guides",
+          "organisation":"Seed Collection Guides",
+          "resourceType":"DwC_Archive",
+          "title":"Seed Collection Guides",
+          "uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SeedCollectionGuides.zip"
+        } 
+      ],
+       "title":"Seed Collection Guides"
+     },
     {
       "abbreviation":"TONG",
       "identifier":"Trees-of-New-Guinea",
