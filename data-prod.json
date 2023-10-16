@@ -840,7 +840,18 @@
         "skip.indexing":"true"
       }
     },
-       {
+      {
+      "description":"Harvest SeedCollectionGuides",
+      "identifier":"Harvest-SeedCollectionGuides",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"SeedCollectionGuides",
+        "authority.uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SeedCollectionGuides.zip",
+        "resource.identifier":"SeedCollectionGuides",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest Trees of New Guinea",
       "identifier":"Harvest-Trees-of-New-Guinea",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -930,6 +941,7 @@
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Willdenowia",
         "Harvest-Systematic-Botany",
+        "Harvest-SeedCollectionGuides",
         "Harvest-Trees-of-New-Guinea",
         "reindex"
       ]
