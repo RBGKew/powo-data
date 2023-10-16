@@ -918,13 +918,13 @@
       }
     },
     {
-      "description":"Harvest SeedCollectionGuides1",
-      "identifier":"Harvest-SeedCollectionGuides1",
+      "description":"Harvest SeedCollectionGuides",
+      "identifier":"Harvest-SeedCollectionGuides",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"SeedCollectionGuides1",
+        "authority.name":"SeedCollectionGuides",
         "authority.uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SeedCollectionGuides.zip",
-        "resource.identifier":"SeedCollectionGuides1",
+        "resource.identifier":"SeedCollectionGuides",
         "skip.indexing":"true"
       }
     },
@@ -1058,7 +1058,7 @@
         "Harvest-KewBulletinVol77",
         "Harvest-Flora-Zambesiaca-Acanthaceae",
         "Harvest-Flora-Zambesiaca-Volume-12-part-1",
-        "Harvest-SeedCollectionGuides1",
+        "Harvest-SeedCollectionGuides",
         "Harvest-Flora-Zambesiaca-Volume-8-part-8",
         "Harvest-Flora-of-the-Cayman-Islands",
         "Harvest-the-kew-tropical-plant-families-identification-handbooks",
