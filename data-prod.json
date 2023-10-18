@@ -840,6 +840,17 @@
         "skip.indexing":"true"
       }
     },
+     {
+      "description":"Harvest Flora Zambesiaca Cyperaceae",
+      "identifier":"Harvest-Flora-Zambesiaca-Cyperaceae",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-Zambesiaca-Cyperaceae",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZCyperaceae.zip",
+        "resource.identifier":"Flora-Zambesiaca-Cyperaceae",
+        "skip.indexing":"true"
+      }
+    },
       {
       "description":"Harvest SeedCollectionGuides",
       "identifier":"Harvest-SeedCollectionGuides",
@@ -941,6 +952,7 @@
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Willdenowia",
         "Harvest-Systematic-Botany",
+        "Harvest-KewBulletinVol77",
         "Harvest-SeedCollectionGuides",
         "Harvest-Trees-of-New-Guinea",
         "reindex"
@@ -1827,6 +1839,20 @@
         }
       ],
       "title":"Systematic Botany"
+    },
+        {
+      "abbreviation":"KB77",
+      "identifier":"KewBulletinVol77",
+      "resources":[
+        {
+          "identifier":"KewBulletinVol77",
+          "organisation":"KewBulletinVol77",
+          "resourceType":"DwC_Archive",
+          "title":"KewBulletinVol77",
+          "uri":"https://storage.googleapis.com/powop-content/KewBulletin/KewBulletinBatch14.zip"
+        }
+      ],
+      "title":"KewBulletinVol77"
     },
      {
       "abbreviation":"SCG",
