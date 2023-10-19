@@ -2051,12 +2051,12 @@
       "bibliographicCitation":"Seed Collection Guides",
       "creator":"POWOP content",
       "description":"Seed Collection Guides",
-      "identifier":"Seed Collection Guides",
+      "identifier":"SeedCollectionGuides",
       "publisherName":"POWOP content",
       "resources":[
         {
-          "identifier":"Seed Collection Guides",
-          "organisation":"Seed Collection Guides",
+          "identifier":"SeedCollectionGuides",
+          "organisation":"SeedCollectionGuides",
           "resourceType":"DwC_Archive",
           "title":"Seed Collection Guides",
           "uri":"https://storage.googleapis.com/powop-content/SeedCollectionGuides/SeedCollectionGuides.zip"
