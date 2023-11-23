@@ -970,6 +970,17 @@
     "authority.uri":"https://storage.googleapis.com/powop-content/KPFIH/TemperatePFIH.zip",
     "resource.identifier":"the-kew-temperate-plant-families-identification-handbooks",
     "skip.indexing":"true" 
+    }
+    },
+    {
+      "description":"Harvest Neotropikey v2",
+      "identifier":"Harvest-Neotropikey-v2",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Neotropikey-v2",
+        "authority.uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey_edited_V2.zip",
+        "resource.identifier":"Neotropikey-v2",
+        "skip.indexing":"true"
       }
     }
   ],
@@ -1063,6 +1074,7 @@
         "Harvest-Flora-of-the-Cayman-Islands",
         "Harvest-the-kew-tropical-plant-families-identification-handbooks",
         "Harvest-the-kew-temperate-plant-families-identification-handbooks",
+        "Harvest-Neotropikey-v2",
         "reindex"
       ]
     }
@@ -2119,6 +2131,25 @@
         }
       ],
       "title":"The Kew Temperate Plant Families Identification Handbook" 
+      },
+      {
+        "abbreviation":"NTKv2",
+        "bibliographicCitation":"Milliken, W., Klitgard, B. and Baracat, A. (2009 onwards), Neotropikey - Interactive key and information resources for flowering plants of the Neotropics.",
+        "creator":"Baracat",
+        "description":"Neotropikey - Interactive key and information resources for flowering plants of the Neotropics",
+        "identifier":"Neotropikey-v2",
+        "publisherName":"Kirkup",
+        "resources":[
+          {
+            "identifier":"Neotropikey-v2",
+            "organisation":"Neotropikey-v2",
+            "resourceType":"DwC_Archive",
+            "title":"Neotropikey v2",
+            "uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey_edited_V2.zip"
+          },
+         ],
+        "subject":"; Neotropics; Angiosperms",
+        "title":"Neotropikey v2"
     }
   ]
 }    
