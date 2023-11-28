@@ -2134,11 +2134,7 @@
       },
       {
         "abbreviation":"NTKv2",
-        "bibliographicCitation":"Milliken, W., Klitgard, B. and Baracat, A. (2009 onwards), Neotropikey - Interactive key and information resources for flowering plants of the Neotropics.",
-        "creator":"Baracat",
-        "description":"Neotropikey - Interactive key and information resources for flowering plants of the Neotropics",
         "identifier":"Neotropikey-v2",
-        "publisherName":"Kirkup",
         "resources":[
           {
             "identifier":"Neotropikey-v2",
@@ -2146,9 +2142,8 @@
             "resourceType":"DwC_Archive",
             "title":"Neotropikey v2",
             "uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey_edited_V2.zip"
-          },
+          }
          ],
-        "subject":"; Neotropics; Angiosperms",
         "title":"Neotropikey v2"
     }
   ]
