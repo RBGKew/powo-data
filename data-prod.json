@@ -457,7 +457,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Herbarium-Catalogue-Specimens",
-        "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/herbcat_images.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/earthcape_images.zip",
         "resource.identifier":"Herbcat-Images",
         "skip.indexing":"true"
       }
@@ -1251,7 +1251,7 @@
           "organisation":"Herbarium-Catalogue-Specimens",
           "resourceType":"DwC_Archive",
           "title":"Herbcat Images",
-          "uri":"https://storage.googleapis.com/powop-content/multimedia/herbcat_images.zip"
+          "uri":"https://storage.googleapis.com/powop-content/multimedia/earthcape_images.zip"
         },
         {
           "identifier":"ColPlantA-Herbcat-Dets",
