@@ -217,19 +217,8 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Herbarium-Catalogue-Specimens",
-        "authority.uri":"https://storage.googleapis.com/powop-content/Herbcat/herbcat_dets.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/Herbcat/earthcape_dets.zip",
         "resource.identifier":"Herbcat-Dets",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest Herbcat Autonym Dets",
-      "identifier":"Harvest-Herbcat-Autonym-Dets",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"Herbarium-Catalogue-Specimens",
-        "authority.uri":"https://storage.googleapis.com/powop-content/Herbcat/herbcat_dets_autonyms.zip",
-        "resource.identifier":"Herbcat-Autonym-Dets",
         "skip.indexing":"true"
       }
     },
@@ -943,7 +932,6 @@
         "Harvest-Botswana-Common-Names",
         "Harvest-Herbcat-Dets",
         "Harvest-Herbcat-Images",
-        "Harvest-Herbcat-Autonym-Dets",
         "Harvest-Library-Art-and-Archives",
         "Harvest-Colombian-Illustrations",
         "Harvest-Orchid-Illustrations",
@@ -1237,14 +1225,7 @@
           "organisation":"Herbarium-Catalogue-Specimens",
           "resourceType":"DwC_Archive",
           "title":"Herbcat Dets",
-          "uri":"https://storage.googleapis.com/powop-content/Herbcat/herbcat_dets.zip"
-        },
-        {
-          "identifier":"Herbcat-Autonym-Dets",
-          "organisation":"Herbarium-Catalogue-Specimens",
-          "resourceType":"DwC_Archive",
-          "title":"Herbcat Autonym Dets",
-          "uri":"https://storage.googleapis.com/powop-content/Herbcat/herbcat_dets_autonyms.zip"
+          "uri":"https://storage.googleapis.com/powop-content/Herbcat/earthcape_dets.zip"
         },
         {
           "identifier":"Herbcat-Images",
