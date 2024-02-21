@@ -977,7 +977,7 @@
       "identifier":"Harvest-Angiosperm-threat-predictions-v.1",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Angiosperm threat predictions v.1",
+        "authority.name":"Angiosperm-threat-predictions-v.1",
         "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip",
         "resource.identifier":"Angiosperm-threat-predictions-v.1",
         "skip.indexing":"true"
@@ -2140,7 +2140,7 @@
         "title":"Neotropikey v2"
     },
    {
-        "abbreviation":"ATP",
+        "abbreviation":"Threats",
         "identifier":"Angiosperm-threat-predictions-v.1",
         "resources":[
           {
