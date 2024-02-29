@@ -973,13 +973,13 @@
       }
      },
     {
-      "description":"Harvest Angiosperm threat predictions v.1",
-      "identifier":"Harvest-Angiosperm-threat-predictions-v.1",
+      "description":"Harvest Angiosperm Extinction Risk Predictions v1",
+      "identifier":"Harvest-Angiosperm-Extinction-Risk-predictions-v1",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Angiosperm-threat-predictions-v.1",
+        "authority.name":"Angiosperm-Extinction-Risk-predictions-v1",
         "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip",
-        "resource.identifier":"Angiosperm-threat-predictions-v.1",
+        "resource.identifier":"Angiosperm-Extinction-Risk-predictions-v1",
         "skip.indexing":"true"
       } 
     }
@@ -1074,7 +1074,7 @@
         "Harvest-the-kew-tropical-plant-families-identification-handbooks",
         "Harvest-the-kew-temperate-plant-families-identification-handbooks",
         "Harvest-Neotropikey-v2",
-        "Harvest-Angiosperm-threat-predictions-v.1",
+        "Harvest-Angiosperm-Extinction-Risk-predictions-v1",
         "reindex"
       ]
     }
@@ -2140,18 +2140,18 @@
         "title":"Neotropikey v2"
     },
    {
-        "abbreviation":"Threats",
-        "identifier":"Angiosperm-threat-predictions-v.1",
+        "abbreviation":"AERP",
+        "identifier":"Angiosperm-Extinction-Risk-predictions-v1",
         "resources":[
           {
-            "identifier":"Angiosperm-threat-predictions-v.1",
-            "organisation":"Angiosperm-threat-predictions-v.1",
+            "identifier":"Angiosperm-Extinction-Risk-predictions-v1",
+            "organisation":"Angiosperm-Extinction-Risk-predictions-v1",
             "resourceType":"DwC_Archive",
-            "title":"Angiosperm Threat Predictions v.1",
+            "title":"Angiosperm Extinction Risk Predictions v1",
             "uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip"
           }
         ],
-        "title":"Angiosperm Threat Predictions v.1"
+        "title":"Angiosperm Extinction Risk Predictions v1"
       } 
   ]
 }    
