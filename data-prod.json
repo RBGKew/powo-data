@@ -905,6 +905,17 @@
     "resource.identifier":"the-kew-temperate-plant-families-identification-handbooks",
     "skip.indexing":"true" 
      }
+     },
+    {
+      "description":"Harvest Angiosperm Extinction Risk Predictions v1",
+      "identifier":"Harvest-Angiosperm-Extinction-Risk-predictions-v1",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Angiosperm-Extinction-Risk-predictions-v1",
+        "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip",
+        "resource.identifier":"Angiosperm-Extinction-Risk-predictions-v1",
+        "skip.indexing":"true"
+     }
     }
   ],
   "jobLists":[
@@ -991,6 +1002,7 @@
         "Harvest-Flora-of-the-Cayman-Islands",
         "Harvest-the-kew-tropical-plant-families-identification-handbooks",
         "Harvest-the-kew-temperate-plant-families-identification-handbooks",
+        "Harvest-Angiosperm-Extinction-Risk-predictions-v1",
         "reindex"
       ]
     }
@@ -1970,6 +1982,20 @@
         }
       ],
       "title":"The Kew Temperate Plant Families Identification Handbook" 
+       },
+   {
+        "abbreviation":"AERP",
+        "identifier":"Angiosperm-Extinction-Risk-predictions-v1",
+        "resources":[
+          {
+            "identifier":"Angiosperm-Extinction-Risk-predictions-v1",
+            "organisation":"Angiosperm-Extinction-Risk-predictions-v1",
+            "resourceType":"DwC_Archive",
+            "title":"Angiosperm Extinction Risk Predictions v1",
+            "uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip"
+          }
+        ],
+        "title":"Angiosperm Extinction Risk Predictions v1"
       }       
   ]
 }
