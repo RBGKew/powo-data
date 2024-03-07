@@ -978,7 +978,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Angiosperm-Extinction-Risk-predictions-v1",
-        "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats_UAT.zip",
         "resource.identifier":"Angiosperm-Extinction-Risk-predictions-v1",
         "skip.indexing":"true"
       } 
@@ -2148,7 +2148,7 @@
             "organisation":"Angiosperm-Extinction-Risk-predictions-v1",
             "resourceType":"DwC_Archive",
             "title":"Angiosperm Extinction Risk Predictions v1",
-            "uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip"
+            "uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats_UAT.zip"
           }
         ],
         "title":"Angiosperm Extinction Risk Predictions v1"
