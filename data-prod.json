@@ -311,7 +311,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Neotropikey",
-        "authority.uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey_edited_V2.zip",
         "resource.identifier":"Neotropikey",
         "skip.indexing":"true"
       }
@@ -1371,7 +1371,7 @@
           "organisation":"Neotropikey",
           "resourceType":"DwC_Archive",
           "title":"Neotropikey",
-          "uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey.zip"
+          "uri":"https://storage.googleapis.com/powop-content/neotropikey/neotropikey_edited_V2.zip"
         },
         {
           "identifier":"Neotropikey-Images",
