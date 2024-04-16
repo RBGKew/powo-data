@@ -981,6 +981,28 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats_UAT.zip",
         "resource.identifier":"Angiosperm-Extinction-Risk-predictions-v1",
         "skip.indexing":"true"
+        }
+      },
+    {
+      "description":"Harvest Grassbase genus 2024 descriptions",
+      "identifier":"Harvest-Grassbase-genus-2024-descriptions",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"GrassBase-The-Online-World-Grass-Flora-genus-2024",
+        "authority.uri":"https://storage.googleapis.com/powop-content/grassbase/Grassbase_genus_2024.zip",
+        "resource.identifier":"Grassbase-genus-2024-descriptions",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest Grassbase species 2024 descriptions",
+      "identifier":"Harvest-Grassbase-species-2024-descriptions",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"GrassBase-The-Online-World-Grass-Flora-species-2024",
+        "authority.uri":"https://storage.googleapis.com/powop-content/grassbase/Grassbase_species_2024.zip",
+        "resource.identifier":"Grassbase-species-2024-descriptions",
+        "skip.indexing":"true"
       } 
     }
   ],
@@ -1075,6 +1097,8 @@
         "Harvest-the-kew-temperate-plant-families-identification-handbooks",
         "Harvest-Neotropikey-v2",
         "Harvest-Angiosperm-Extinction-Risk-predictions-v1",
+        "Harvest-Grassbase-genus-2024-descriptions",
+        "Harvest-Grassbase-species-2024-descriptions",
         "reindex"
       ]
     }
@@ -2152,6 +2176,36 @@
           }
         ],
         "title":"Angiosperm Extinction Risk Predictions v1"
+      },
+    {
+      "abbreviation":"GBG24",
+      "description":"GrassBase - The Online World Grass Flora (genus 2024)",
+      "identifier":"GrassBase-The-Online-World-Grass-Flora_(genus_2024)",
+      "resources":[
+        {
+          "identifier":"Grassbase-genus-2024-descriptions",
+          "organisation":"GrassBase-The-Online-World-Grass-Flora-genus-2024",
+          "resourceType":"DwC_Archive",
+          "title":"Grassbase genus 2024 descriptions",
+          "uri":"https://storage.cloud.google.com/powop-content/grassbase/Grassbase_genus_2024.zip"
+        }
+      ],
+      "title":"GrassBase - The Online World Grass Flora (genus 2024)"
+            },
+        {
+          "abbreviation":"GBS24",
+          "description":"GrassBase - The Online World Grass Flora (species 2024)",
+          "identifier":"GrassBase-The-Online-World-Grass-Flora_(species_2024)",
+          "resources":[
+            {
+              "identifier":"Grassbase-species-2024-descriptions",
+              "organisation":"GrassBase-The-Online-World-Grass-Flora-species-2024",
+              "resourceType":"DwC_Archive",
+              "title":"Grassbase species 2024 descriptions",
+              "uri":"https://storage.cloud.google.com/powop-content/grassbase/Grassbase_species_2024.zip"
+            }
+          ],
+          "title":"GrassBase - The Online World Grass Flora (species 2024)"
       } 
   ]
 }    
