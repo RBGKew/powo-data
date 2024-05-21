@@ -1003,6 +1003,17 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/grassbase/Grassbase_species_2024.zip",
         "resource.identifier":"Grassbase-species-2024-descriptions",
         "skip.indexing":"true"
+        }
+     },
+      {
+  "description":"Harvest Palms of New Guinea",
+  "identifier":"Harvest-Palms-of-New-Guinea",
+  "jobName":"DarwinCoreArchiveHarvesting",
+  "parameters":{
+    "authority.name":"Palms-of-New-Guinea",
+    "authority.uri":"https://storage.googleapis.com/powop-content/PONG/PalmsNewGuinea.zip",
+    "resource.identifier":"Palms-of-New-Guinea",
+    "skip.indexing":"true"
       } 
     }
   ],
@@ -1099,6 +1110,7 @@
         "Harvest-Angiosperm-Extinction-Risk-predictions-v1",
         "Harvest-Grassbase-genus-2024-descriptions",
         "Harvest-Grassbase-species-2024-descriptions",
+        "Harvest-Palms-of-New-Guinea",
         "reindex"
       ]
     }
@@ -2206,6 +2218,20 @@
             }
           ],
           "title":"GrassBase - The Online World Grass Flora (species 2024)"
+                },
+    {
+      "abbreviation":"PONG",
+      "identifier":"Palms-of-New-Guinea",
+      "resources":[
+        {
+          "identifier":"Palms-of-New-Guinea",
+          "organisation":"Palms-of-New-Guinea",
+          "resourceType":"DwC_Archive",
+          "title":"Palms of New Guinea",
+          "uri":"https://storage.googleapis.com/powop-content/PONG/PalmsNewGuinea.zip"
+        }
+      ],
+      "title":"Palms of New Guinea"
       } 
   ]
 }    
