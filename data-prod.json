@@ -915,16 +915,6 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/IUCN/Angiosperm_threats.zip",
         "resource.identifier":"Angiosperm-Extinction-Risk-predictions-v1",
         "skip.indexing":"true"
-     },
-      {
-  "description":"Harvest Palms of New Guinea",
-  "identifier":"Harvest-Palms-of-New-Guinea",
-  "jobName":"DarwinCoreArchiveHarvesting",
-  "parameters":{
-    "authority.name":"Palms-of-New-Guinea",
-    "authority.uri":"https://storage.googleapis.com/powop-content/PONG/PalmsNewGuinea.zip",
-    "resource.identifier":"Palms-of-New-Guinea",
-    "skip.indexing":"true"
     }
     }
   ],
@@ -1013,7 +1003,6 @@
         "Harvest-the-kew-tropical-plant-families-identification-handbooks",
         "Harvest-the-kew-temperate-plant-families-identification-handbooks",
         "Harvest-Angiosperm-Extinction-Risk-predictions-v1",
-        "Harvest-Palms-of-New-Guinea",
         "reindex"
       ]
     }
@@ -2007,20 +1996,6 @@
           }
         ],
         "title":"Angiosperm Extinction Risk Predictions v1"
-      }   ,
-    {
-      "abbreviation":"PONG",
-      "identifier":"Palms-of-New-Guinea",
-      "resources":[
-        {
-          "identifier":"Palms-of-New-Guinea",
-          "organisation":"Palms-of-New-Guinea",
-          "resourceType":"DwC_Archive",
-          "title":"Palms of New Guinea",
-          "uri":"https://storage.googleapis.com/powop-content/PONG/PalmsNewGuinea.zip"
-        }
-      ],
-      "title":"Palms of New Guinea"
-      }
+            }
   ]
 }
