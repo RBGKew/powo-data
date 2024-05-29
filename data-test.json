@@ -1015,7 +1015,18 @@
     "resource.identifier":"Palms-of-New-Guinea",
     "skip.indexing":"true"
       } 
-    }
+    },
+    {
+  "description":"Harvest Flora Zambesiaca Hyacinthaceae",
+  "identifier":"Harvest-Flora-Zambesiaca-Hyacinthaceae",
+  "jobName":"DarwinCoreArchiveHarvesting",
+  "parameters":{
+    "authority.name":"Flora-Zambesiaca-Hyacinthaceae",
+    "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Hyacinthaceae13.zip",
+    "resource.identifier":"Flora-Zambesiaca-Hyacinthaceae",
+    "skip.indexing":"true"
+  }
+}
   ],
   "jobLists":[
     {
@@ -1111,6 +1122,7 @@
         "Harvest-Grassbase-genus-2024-descriptions",
         "Harvest-Grassbase-species-2024-descriptions",
         "Harvest-Palms-of-New-Guinea",
+        "Harvest-Flora-Zambesiaca-Hyacinthaceae",
         "reindex"
       ]
     }
@@ -2232,7 +2244,21 @@
         }
       ],
       "title":"Palms of New Guinea"
-      } 
+      } ,
+    {
+      "abbreviation":"FZHY",
+      "identifier":"Flora-Zambesiaca-Hyacinthaceae",
+      "resources":[
+        {
+          "identifier":"Flora-Zambesiaca-Hyacinthaceae",
+          "organisation":"Flora-Zambesiaca-Hyacinthaceae",
+          "resourceType":"DwC_Archive",
+          "title":"Flora Zambesiaca Hyacinthaceae",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Hyacinthaceae13.zip"
+        }
+      ],
+      "title":"Flora Zambesiaca Hyacinthaceae"
+    }
   ]
 }    
 
