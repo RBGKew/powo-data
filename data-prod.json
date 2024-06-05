@@ -747,7 +747,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Flora-of-Iraq",
-        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/FloraofIraq.zip",
         "resource.identifier":"Flora-of-Iraq",
         "skip.indexing":"true"
       }
@@ -1806,7 +1806,7 @@
           "organisation":"Flora-of-Iraq",
           "resourceType":"DwC_Archive",
           "title":"Flora of Iraq",
-          "uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip"
+          "uri":"https://storage.googleapis.com/powop-content/FIraq/FloraofIraq.zip"
         }
       ],
       "title":"Flora of Iraq"
