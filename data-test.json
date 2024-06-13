@@ -1026,6 +1026,17 @@
     "resource.identifier":"Flora-Zambesiaca-Hyacinthaceae",
     "skip.indexing":"true"
   }
+},
+    {
+  "description":"Harvest Living Collection Common Names edit 2024",
+  "identifier":"Harvest-Living-Collection-Common-Names-edit-2024",
+  "jobName":"DarwinCoreArchiveHarvesting",
+  "parameters":{
+    "authority.name":"Kew-Living-Collection-Database-edit-2024",
+    "authority.uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_names_edit2024.zip",
+    "resource.identifier":"Living-Collection-Common-Names-edit-2024",
+    "skip.indexing":"true"
+  }
 }
   ],
   "jobLists":[
@@ -1123,6 +1134,7 @@
         "Harvest-Grassbase-species-2024-descriptions",
         "Harvest-Palms-of-New-Guinea",
         "Harvest-Flora-Zambesiaca-Hyacinthaceae",
+        "Harvest-Living-Collection-Common-Names-edit-2024",
         "reindex"
       ]
     }
@@ -2258,7 +2270,21 @@
         }
       ],
       "title":"Flora Zambesiaca Hyacinthaceae"
+    },
+    {
+  "abbreviation":"LCD",
+  "identifier":"Kew-Living-Collection-Database-edit-2024",
+  "resources":[
+    {
+      "identifier":"Living-Collection-Common-Names-edit-2024",
+      "organisation":"Kew-Living-Collection-Database-edit-2024",
+      "resourceType":"DwC_Archive",
+      "title":"Living Collection Common Names edit 2024",
+      "uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_names_edit2024.zip"
     }
+  ],
+  "title":"Kew Living Collection Database edit 2024"
+}
   ]
 }    
 
