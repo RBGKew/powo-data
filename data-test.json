@@ -2273,17 +2273,17 @@
     },
     {
   "abbreviation":"LCD",
-  "identifier":"Kew-Living-Collection-Common-Names-edit-2024",
+  "identifier":"Living-Collection-Common-Names-edit-2024",
   "resources":[
     {
       "identifier":"Living-Collection-Common-Names-edit-2024",
-      "organisation":"Kew-Living-Collection-Database-edit-2024",
+      "organisation":"Living-Collection-Database-edit-2024",
       "resourceType":"DwC_Archive",
       "title":"Living Collection Common Names edit 2024",
       "uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_names_edit2024.zip"
     }
   ],
-  "title":"Kew Living Collection Common Names edit 2024"
+  "title":"Living Collection Common Names edit 2024"
 }
   ]
 }    
