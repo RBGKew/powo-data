@@ -1032,7 +1032,7 @@
   "identifier":"Harvest-Living-Collection-Common-Names-edit-2024",
   "jobName":"DarwinCoreArchiveHarvesting",
   "parameters":{
-    "authority.name":"Kew-Living-Collection-Database-edit-2024",
+    "authority.name":"Living-Collection-Common-Names-edit-2024",
     "authority.uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_names_edit2024.zip",
     "resource.identifier":"Living-Collection-Common-Names-edit-2024",
     "skip.indexing":"true"
@@ -2273,7 +2273,7 @@
     },
     {
   "abbreviation":"LCD",
-  "identifier":"Kew-Living-Collection-Database-edit-2024",
+  "identifier":"Kew-Living-Collection-Common-Names-edit-2024",
   "resources":[
     {
       "identifier":"Living-Collection-Common-Names-edit-2024",
@@ -2283,7 +2283,7 @@
       "uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_names_edit2024.zip"
     }
   ],
-  "title":"Kew Living Collection Database edit 2024"
+  "title":"Kew Living Collection Common Names edit 2024"
 }
   ]
 }    
