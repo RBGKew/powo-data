@@ -1037,6 +1037,17 @@
     "resource.identifier":"EBC-Common-Names",
     "skip.indexing":"true"
   }
+},
+{
+  "description":"Harvest EBC Images
+  "identifier":"Harvest-EBC-Images",
+  "jobName":"DarwinCoreArchiveHarvesting",
+  "parameters":{
+    "authority.name":"EBC-Images",
+    "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/ecbot_images.zip",
+    "resource.identifier":"EBC-Common-Names",
+    "skip.indexing":"true"
+  }
 } 
   ],
   "jobLists":[
@@ -1135,6 +1146,7 @@
         "Harvest-Flora-Zambesiaca-Hyacinthaceae",
         "Harvest-Living-Collection-Common-Names-edit-2024",
         "Harvest-EBC-Common-Names",
+        "Harvest-EBC-Images",
         "reindex"
       ]
     }
@@ -2273,14 +2285,21 @@
 },
     {
   "abbreviation":"EBC",
-  "identifier":"EBC-Common-Names",
+  "identifier":"EBC-Catalogue",
   "resources":[
     {
       "identifier":"EBC-Common-Names",
-      "organisation":"EBC-Common-Names",
+      "organisation":"EBC-Catalogue",
       "resourceType":"DwC_Archive",
       "title":"EBC Common Names",
       "uri":"https://storage.googleapis.com/powop-content/common_names/EBCcommon_names.zip"
+    },
+    {
+      "identifier":"EBC-Images",
+      "organisation":"EBC-Catalogue",
+      "resourceType":"DwC_Archive",
+      "title":"EBC Images",
+      "uri":"https://storage.googleapis.com/powop-content/multimedia/ecbot_images.zip"
     }
   ],
   "title":"EBC Common Names"
