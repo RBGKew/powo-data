@@ -1039,7 +1039,7 @@
   }
 },
 {
-  "description":"Harvest EBC Images
+  "description":"Harvest EBC Images",
   "identifier":"Harvest-EBC-Images",
   "jobName":"DarwinCoreArchiveHarvesting",
   "parameters":{
