@@ -1032,7 +1032,7 @@
   "identifier":"Harvest-EBC-Common-Names",
   "jobName":"DarwinCoreArchiveHarvesting",
   "parameters":{
-    "authority.name":"EBC-Common-Names",
+    "authority.name":"EBC-Catalogue",
     "authority.uri":"https://storage.googleapis.com/powop-content/common_names/EBCcommon_names.zip",
     "resource.identifier":"EBC-Common-Names",
     "skip.indexing":"true"
@@ -1043,9 +1043,9 @@
   "identifier":"Harvest-EBC-Images",
   "jobName":"DarwinCoreArchiveHarvesting",
   "parameters":{
-    "authority.name":"EBC-Images",
+    "authority.name":"EBC-Catalogue",
     "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/ecbot_images.zip",
-    "resource.identifier":"EBC-Common-Names",
+    "resource.identifier":"EBC-Images",
     "skip.indexing":"true"
   }
 } 
