@@ -1048,6 +1048,17 @@
     "resource.identifier":"EBC-Images",
     "skip.indexing":"true"
   }
+},
+    {
+  "description":"Harvest Flora of Oman V4",
+  "identifier":"Harvest-Flora-of-Oman-V4",
+  "jobName":"DarwinCoreArchiveHarvesting",
+  "parameters":{
+    "authority.name":"Flora-of-Oman-V4",
+    "authority.uri":"https://storage.googleapis.com/powop-content/FO/FOv4.zip",
+    "resource.identifier":"Flora-of-Oman-V4",
+    "skip.indexing":"true"
+  }
 } 
   ],
   "jobLists":[
@@ -1147,6 +1158,7 @@
         "Harvest-Living-Collection-Common-Names-edit-2024",
         "Harvest-EBC-Common-Names",
         "Harvest-EBC-Images",
+        "Harvest-Flora-of-Oman-V4",
         "reindex"
       ]
     }
@@ -2303,6 +2315,20 @@
     }
   ],
   "title":"EBC Catalogue"
+},
+    {
+  "abbreviation":"FOV4",
+  "identifier":"Flora-of-Oman-V4",
+  "resources":[
+    {
+      "identifier":"Flora-of-Oman-V4",
+      "organisation":"Flora-of-Oman-V4",
+      "resourceType":"DwC_Archive",
+      "title":"Flora of Oman Volume 4",
+      "uri":"https://storage.googleapis.com/powop-content/FO/FOv4.zip"
+    }
+  ],
+  "title":"Flora of Oman Volume 4"
 }
   ]
 }    
